@@ -32,9 +32,9 @@ switch( command ) {
       else {
         // now we have confirmed that the new person to be added does not exist in the array 
         // so add him and display
-        prompt(" try to add")
+        alert(" try to add")
         patientList.push(toBeAdded);
-         };update
+         };
       break;
   case 'update':
       //code block
