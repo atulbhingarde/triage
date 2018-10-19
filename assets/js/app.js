@@ -101,7 +101,7 @@ switch( command ) {
        }
         break;
   default:
-    alert(' Give me a break !');
+    alert(' Give me a break ! I am not sure what ypu mean by ' + command );
   //code block
 }
 alert(" This is the list at the end of operation "+patientList)
