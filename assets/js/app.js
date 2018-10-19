@@ -7,7 +7,7 @@ var patientList = [
 const timeout=10000;
 // alert(patientList);
 function isInArray(value, array) {
-  prompt(String(array.indexOf(value)));
+  // prompt(String(array.indexOf(value)));
   return array.indexOf(value) > -1;
 }
 function DisplayList() {
